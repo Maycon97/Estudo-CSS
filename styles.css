@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.container-1 {
+    display: inline-block;
+    width: 60%;
+    margin-top: 10%;
+    padding-left: 80px;
+}
+
+.container-2 {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+img {
+    top: 14%;
+    position: relative;
+    right: 130px;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #5d5d7d;
+    width: 368px;
+
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    color: #5d5d7d;
+    opacity: 0.6;
+    margin: 15px 0;
+    width: 540px;
+}
+
+button {
+    color: white;
+    width: 269px;
+    height: 62px;
+    background: #9499ea;
+    border-radius: 30px;
+    border: none;
+    opacity: 20px;
+    cursor: pointer;
+    line-height: 36px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+a {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5d5d7d;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+    transition: ease-in-out 0.5s;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+header {
+    margin: 24px 0 0 57px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-1 {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        width: 90%;
+   
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    button{
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+@media screen and (max-width:330px){
+.container-1{
+    height: 70%;
+}
+
+
+}
